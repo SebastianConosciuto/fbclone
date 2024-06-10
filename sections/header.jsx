@@ -1,5 +1,6 @@
 import CenterHeader from "@/components/centerHeader";
 import LeftHeader from "@/components/leftHeader";
+import RightHeader from "@/components/rightHeader";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       
       <CenterHeader/>
 
-      {/* Right */}
+      <RightHeader/>
     </div>
   );
 };

@@ -18,7 +18,7 @@ const CenterHeader = () => {
   return (
     <div className="flex justify-center flex-grow">
       <div className="flex space-x-6 md:space-x-2 ">
-        <HeaderIcon active Icon={HomeIcon} />
+        <HeaderIcon Icon={HomeIcon} state={true} />
         <HeaderIcon Icon={FlagIcon} />
         <HeaderIcon Icon={PlayIcon} />
         <HeaderIcon Icon={ShoppingCartIcon} />
